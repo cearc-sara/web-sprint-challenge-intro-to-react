@@ -1,10 +1,14 @@
 // Write your Character component here
-import React from 'react';
+import React, {useState} from 'react';
 import axios from 'axios'
 import styled from 'styled-components'
+// import { Collapse, Button, CardBody, Card } from 'reactstrap';
 
 const Character = (props) => {
     const { characters } = props;
+//     const [isOpen, setIsOpen] = useState(false);
+
+//   const toggle = () => setIsOpen(!isOpen);
 
 const StyledCharacter = styled.div`
     display:flex;
@@ -44,6 +48,17 @@ const StyledCharacter = styled.div`
                 return <div className='character'>
                     <p key={character.id} className='name'>{character.name}</p>
                     <p className='status'>{character.status}</p>
+                    {/* <Button  onClick={toggle} >Toggle</Button>
+      <Collapse isOpen={isOpen}>
+        <Card>
+          <CardBody>
+          Anim pariatur cliche reprehenderit,
+           enim eiusmod high life accusamus terry richardson ad squid. Nihil
+           anim keffiyeh helvetica, craft beer labore wes anderson cred
+           nesciunt sapiente ea proident.
+          </CardBody>
+        </Card>
+      </Collapse> */}
                 </div>
             })}
         </StyledCharacter>
