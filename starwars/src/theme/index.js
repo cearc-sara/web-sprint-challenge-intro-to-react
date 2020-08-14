@@ -5,13 +5,16 @@ const theme = {
     white: 'white',
     black: 'black',
     gray:'grey',
-    fontSize: '1.2rem',
-    paddingSmall: '0.5em',
-    paddingMedium: '1.5em',
+    fontSize: '1.1rem',
+    fontWeight: 'bold',
+    paddingSmall: '0.5%',
+    paddingMedium: '1.5%',
+    borderRadius:'25px',
     margins: {
-        big: '3em',
-        medium: '1.5em',
-        small: '0.5em',
+        extra: '5%',
+        big: '3%',
+        medium: '1.5%',
+        small: '0.5%',
     }
 }
 
