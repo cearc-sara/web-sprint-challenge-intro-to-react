@@ -4,6 +4,7 @@ const theme = {
     tertiaryColor: 'teal',
     white: 'white',
     black: 'black',
+    gray:'grey',
     fontSize: '1.2rem',
     paddingSmall: '0.5em',
     paddingMedium: '1.5em',
